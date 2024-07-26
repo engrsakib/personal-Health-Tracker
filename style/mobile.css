@@ -1,18 +1,53 @@
 @media screen and (max-width: 576px) {
-    .nav{
-        width: 100%;
-    }
-    .navMenu .navOption{
-        display: none;
-    }
-    .navLogo > h2{
-        font-size: 2.6rem;
-        padding-left: 1rem;
-    }
-    .mobileIcon i{
-        color: #ffff;
-        display: inline;
-        padding-right: 1rem;
-        cursor: pointer;
-    }
-} 
+  .nav {
+    width: 100%;
+  }
+  .navMenu .navOption {
+    display: none;
+  }
+  .navLogo > h2 {
+    font-size: 2.6rem;
+    padding-left: 1rem;
+  }
+  .mobileIcon i {
+    color: #ffff;
+    display: inline;
+    padding-right: 1rem;
+    cursor: pointer;
+  }
+  /* head menu added */
+  .headContaint {
+    flex-direction: column;
+    width: 100%;
+    min-height: 55rem;
+    margin: 1rem;
+    gap: 5rem;
+  }
+  .headArticle p {
+    margin-right: 1rem;
+  }
+  .headArticle {
+    width: 100%;
+  }
+  .headBtn {
+    width: 100%;
+  }
+  .articleImg {
+    width: 80%;
+  }
+  .articleImg img {
+    width: 100%;
+  }
+  .headImgBox11 {
+    left: -1rem;
+    top: 10rem;
+    width: 190px;
+    height: 96px;
+  }
+  .headImgBox12 {
+    top: 5rem;
+    left: 13rem;
+    width: 190px;
+    height: 96px;
+  }
+}
