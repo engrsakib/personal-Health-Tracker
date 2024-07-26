@@ -16,15 +16,28 @@
     cursor: pointer;
   }
   /* head menu added */
+  .head{
+    width: 100%;
+    max-height: 70rem;
+  }
+  .headArticle{
+    width: 100%;
+    margin: 0;
+  }
+  .headArticle h3{
+    margin-right: 0;
+    width: 100%;
+    font-size: 3.2rem;
+    display: inline;
+  }
   .headContaint {
     flex-direction: column;
-    width: 100%;
-    min-height: 55rem;
+    width: 95%;
     margin: 1rem;
     gap: 5rem;
   }
   .headArticle p {
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
   .headArticle {
     width: 100%;
@@ -33,20 +46,20 @@
     width: 100%;
   }
   .articleImg {
-    width: 80%;
+    width: 100%;
   }
   .articleImg img {
     width: 100%;
   }
   .headImgBox11 {
     left: -1rem;
-    top: 10rem;
+    top: 18rem;
     width: 190px;
     height: 96px;
   }
   .headImgBox12 {
-    top: 5rem;
-    left: 13rem;
+    top: 4rem;
+    left: 11rem;
     width: 190px;
     height: 96px;
   }
