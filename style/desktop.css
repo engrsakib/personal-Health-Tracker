@@ -167,8 +167,76 @@
   gap: 1px;
 }
 /* main part design start */
-.mainPart{
+.mainPart {
   width: 100%;
   min-height: 60rem;
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0, 0, 0, 1);
+}
+/* habits section */
+.habit {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.habitText h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+}
+.habitImg {
+  margin-top: 5rem;
+  display: flex;
+}
+.habitText p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.4rem;
+  letter-spacing: 0.8px;
+}
+.habitImgContainer{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.habitImg .firstImg img {
+  border-radius: 50%;
+}
+.firstImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstImg img{
+  width: 12rem;
+  margin-bottom: 1rem;
+}
+.firstImgText h4 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.3px;
+}
+.firstImgText p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 0.7rem;
 }
