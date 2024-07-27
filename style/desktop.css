@@ -252,7 +252,7 @@
   justify-content: center;
   align-items: center;
 }
-.runAnText{
+.runAnText {
   width: 60%;
   margin-left: 2rem;
   padding-top: 1rem;
@@ -275,15 +275,138 @@
   text-align: left;
   margin-bottom: 1rem;
 }
-.runAnExtra > .runAnText > button{
+.runAnExtra > .runAnText > button {
   width: 20rem;
 }
-.runAnImg{
+.runAnImg {
   width: 40%;
   height: auto;
 }
-.runAnImg img{
+.runAnImg img {
   width: 90%;
   height: auto;
   border-radius: 2rem;
+}
+/* BMI Design Start */
+.bmi {
+  width: 100%;
+  min-height: 450px;
+  margin-top: 10rem;
+}
+.bmiText {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+.bmiChartContainer {
+  width: 100%;
+  height: 500px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bmiText h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 120%;
+  padding-bottom: 0.2rem;
+  text-align: left;
+}
+.bmiText p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.bmiChart h4,
+.bmiFrom .bmiFromTxt h4 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 900;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* table */
+.tb {
+  margin-top: 3rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(235, 235, 235);
+  color: rgb(255, 255, 255);
+}
+th,
+td {
+  padding: 0.9rem;
+  text-align: center;
+}
+.bmiFrom .bmiFromTxt p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.fromSelect {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.firstInput{
+  display: flex;
+  gap: 1rem;
+}
+.fromSelect .firstInput input {
+  width: 282.2px;
+  height: 48px;
+  padding-left: 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(218, 218, 218);
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+.secondInput{
+  position: relative;
+}
+.secondInput i{
+  position: absolute;
+  top: 0.9rem;
+  right: 2rem;
+  color: rgb(176, 176, 176);
+  cursor: pointer;
+}
+.fromSelect .thirdInput input{
+  width: 580.4px;
+}
+.thirdInput{
+  position: relative;
+}
+.fromSelect .thirdInput i{
+  position: absolute;
+  right: 13.5rem;
+  top: 0.9rem;
+  color: rgb(176, 176, 176);
+  cursor: pointer;
+}
+.bmiBtn{
+  width: 224px;
 }
