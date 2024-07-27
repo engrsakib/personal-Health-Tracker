@@ -201,7 +201,7 @@
   line-height: 1.4rem;
   letter-spacing: 0.8px;
 }
-.habitImgContainer{
+.habitImgContainer {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -211,13 +211,13 @@
 .habitImg .firstImg img {
   border-radius: 50%;
 }
-.firstImg{
+.firstImg {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.firstImg img{
+.firstImg img {
   width: 12rem;
   margin-bottom: 1rem;
 }
@@ -239,4 +239,51 @@
   letter-spacing: 0.3px;
   text-align: center;
   margin-top: 0.7rem;
+}
+/* Run an Extra start */
+.runAnExtra {
+  width: 80%;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgb(81, 79, 79);
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.runAnText{
+  width: 60%;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+.runAnExtra > .runAnText > h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+}
+.runAnExtra > .runAnText > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.runAnExtra > .runAnText > button{
+  width: 20rem;
+}
+.runAnImg{
+  width: 40%;
+  height: auto;
+}
+.runAnImg img{
+  width: 90%;
+  height: auto;
+  border-radius: 2rem;
 }
