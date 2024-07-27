@@ -169,7 +169,7 @@
 /* main part design start */
 .mainPart {
   width: 100%;
-  min-height: 60rem;
+  min-height: 70rem;
   background-color: rgba(0, 0, 0, 1);
 }
 /* habits section */
@@ -442,34 +442,94 @@ td {
   text-align: center;
 }
 .meetTeamImg {
-  width: 80%;
+  width: 100%;
   height: 530px;
   margin: 0 auto;
   padding: 2rem 2.5rem;
-  border-radius: 18px;
+  border-radius: 1.2rem;
   background: rgba(255, 255, 255, 0.1);
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  row-gap: 1.5rem;
 }
-.firstPic img{
-  width: 250px;
+.firstPic img {
+  width: 300px;
   height: 230px;
   border-radius: 0.8rem;
 }
-.firstImgTxt h4{
+.firstImgTxt h4 {
   color: rgb(255, 255, 255);
 }
-.firstImgTxt p{
+.firstImgTxt p {
   color: rgb(146, 146, 146);
 }
-.firstPicDgn{
+.firstPicDgn {
   position: relative;
 }
-.firstImgTxt{
+.firstImgTxt {
   position: absolute;
   top: 11rem;
   left: 1rem;
-  
+}
+/* footer design start */
+.footer {
+  width: 100%;
+  height: 360px;
+  background-color: rgba(28, 28, 28, 0.942);
+  padding-top: 5rem;
+}
+.footerContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLeft {
+  width: 40%;
+}
+.footerLeft p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.4rem;
+  text-align: left;
+}
+.footerMid h5 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: left;
+}
+.footerMid p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+.hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.cartesy {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding-top: 0.9rem;
 }

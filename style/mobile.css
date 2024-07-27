@@ -147,4 +147,32 @@
   .bmiFrom .bmiFromTxt {
     width: 100%;
   }
+  /* meet team */
+  .meetTeamImg{
+    grid-template-columns: repeat(1,1fr);
+    height: auto;
+    gap: 1rem;
+  }
+  .meetTeam .meetTeamTxt{
+    width: 100%;
+  }
+  .meetTeam .meetTeamTxt h3{
+    font-size: 2rem;
+  }
+  .meetTeam .meetTeamTxt p{
+    text-align: justify;
+  }
+  .firstPic img{
+    width: 100%;
+  }
+  .footer{
+    height: 650px;
+  }
+  .footerContainer{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footerLeft{
+    width: 100%;
+  }
 }
