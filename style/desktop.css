@@ -369,7 +369,7 @@ td {
   display: flex;
   flex-direction: column;
 }
-.firstInput{
+.firstInput {
   display: flex;
   gap: 1rem;
 }
@@ -384,29 +384,92 @@ td {
   border: none;
   margin-bottom: 1rem;
 }
-.secondInput{
+.secondInput {
   position: relative;
 }
-.secondInput i{
+.secondInput i {
   position: absolute;
   top: 0.9rem;
   right: 2rem;
   color: rgb(176, 176, 176);
   cursor: pointer;
 }
-.fromSelect .thirdInput input{
+.fromSelect .thirdInput input {
   width: 580.4px;
 }
-.thirdInput{
+.thirdInput {
   position: relative;
 }
-.fromSelect .thirdInput i{
+.fromSelect .thirdInput i {
   position: absolute;
   right: 13.5rem;
   top: 0.9rem;
   color: rgb(176, 176, 176);
   cursor: pointer;
 }
-.bmiBtn{
+.bmiBtn {
   width: 224px;
+}
+/* meet team design */
+.meetTeam {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 7rem;
+  flex-direction: column;
+}
+.meetTeam .meetTeamTxt {
+  width: 60%;
+  margin: 0 auto;
+}
+.meetTeam .meetTeamTxt h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.meetTeam .meetTeamTxt p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-top: 0.6rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.meetTeamImg {
+  width: 80%;
+  height: 530px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.firstPic img{
+  width: 250px;
+  height: 230px;
+  border-radius: 0.8rem;
+}
+.firstImgTxt h4{
+  color: rgb(255, 255, 255);
+}
+.firstImgTxt p{
+  color: rgb(146, 146, 146);
+}
+.firstPicDgn{
+  position: relative;
+}
+.firstImgTxt{
+  position: absolute;
+  top: 11rem;
+  left: 1rem;
+  
 }
