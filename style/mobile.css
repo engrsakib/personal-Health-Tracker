@@ -188,6 +188,11 @@
 }
 
 
-@media screen and (max-width:320px){
-  
+@media screen and (max-width:375px){
+  header, main, .footer{
+    width: 100%;
+  }
+  .headImgBox12{
+    width: 180px;
+  }
 }
