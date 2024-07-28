@@ -12,7 +12,11 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  /* border: 3px solid red; */
 }
+/* body{
+  border: 14px dashed green;
+} */
 .container {
   width: 100%;
   background-color: rgb(31, 29, 32);
@@ -432,7 +436,7 @@ td {
   text-align: center;
 }
 .meetTeam .meetTeamTxt p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(182, 182, 182, 0.5);
   font-family: Inter;
   font-size: 0.9rem;
   font-weight: 400;
@@ -453,16 +457,67 @@ td {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 1.5rem;
 }
+/* .firstPic{
+  box-shadow: 10px 10px 5px 10px gray;
+} */
 .firstPic img {
   width: 300px;
   height: 230px;
   border-radius: 0.8rem;
 }
+.firstPic1{
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../B10A2-versatile-ui/images/trainer1.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.firstPic2{
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../B10A2-versatile-ui/images/trainer2.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.firstPic3{
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../B10A2-versatile-ui/images/trainer3.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.firstPic4{
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../B10A2-versatile-ui/images/trainer4.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.firstPic5{
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../B10A2-versatile-ui/images/trainer5.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.firstPic6{
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../B10A2-versatile-ui/images/trainer1.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+}
 .firstImgTxt h4 {
   color: rgb(255, 255, 255);
 }
 .firstImgTxt p {
-  color: rgb(146, 146, 146);
+  color: rgb(177, 177, 177);
 }
 .firstPicDgn {
   position: relative;
