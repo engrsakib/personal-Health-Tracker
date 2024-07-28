@@ -190,11 +190,37 @@
   border: 14px solid red;
 } */
 
-@media screen and (max-width:375px){
-  header, main, .footer{
+@media screen and (max-width: 375px) {
+  header,
+  main,
+  .footer {
     width: 100%;
   }
-  .headImgBox12{
-    width: 180px;
+  .headImgBox12 {
+    top: 4.2rem;
+    left: 10rem;
+    width: 190px;
+    height: 80px;
+  }
+  .meetTeamImg{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .firstPicDgn{
+    width: 100%;
+  }
+  .fromSelect .firstInput input, select{
+    width: 150px;
+  }
+  .fromSelect .thirdInput input{
+    width: 320px;
+  }
+  .bmi .bmiText h3{
+    font-size: 1.8rem;
+  }
+  .xyz{
+    width: 250px;
+    background-size: cover;
   }
 }
