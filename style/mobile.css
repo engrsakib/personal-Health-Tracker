@@ -185,6 +185,15 @@
     align-items: center;
     gap: 1.5rem;
   }
+  .app{
+    flex-direction: column;
+  }
+  .doctor, .doctorTxt, .appDoctor{
+    width: 100%;
+  }
+  .textArea, .btn{
+    width: 280px;
+  }
 }
 /* *{
   border: 14px solid red;
