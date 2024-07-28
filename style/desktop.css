@@ -386,7 +386,10 @@ td {
   display: flex;
   gap: 1rem;
 }
-.fromSelect .firstInput input, select {
+.fromSelect .firstInput input,
+select,
+.input,
+.select {
   width: 282.2px;
   height: 48px;
   padding-left: 1rem;
@@ -397,10 +400,10 @@ td {
   border: none;
   margin-bottom: 1rem;
 }
-.fromSelect .firstInput select{
+.fromSelect .firstInput select {
   padding-right: 1rem;
 }
-.fromSelect .firstInput select option{
+.fromSelect .firstInput select option {
   color: rgb(218, 218, 218);
   background: rgb(61, 61, 61);
 }
@@ -616,7 +619,8 @@ td {
   height: 700px;
 }
 .uniquePart .uniquePartTxt h3,
-.firstImgUnique h3 {
+.firstImgUnique h3,
+.appionmentTxt h3 {
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 2rem;
@@ -631,7 +635,8 @@ td {
   margin: 0 auto;
 }
 .uniquePart .uniquePartTxt p,
-.banner p {
+.banner p,
+.appionmentTxt p {
   color: rgba(255, 255, 255, 0.5);
   font-family: Inter;
   font-size: 0.9rem;
@@ -677,7 +682,7 @@ td {
   z-index: 1;
   border-radius: 0 0 1rem 1rem;
   opacity: 0;
-  visibility: hidden; 
+  visibility: hidden;
   /* transform: translateX(100%); */
   transition: opacity 1.5s ease-in-out, visibility 1s ease-in;
 }
@@ -707,4 +712,63 @@ td {
 .firstImgUnique:hover .banner {
   opacity: 1;
   visibility: visible;
+}
+/* appoinment doctor design */
+.appionmentDoctor {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.appionmentTxt {
+  width: 80%;
+  margin: 0 auto;
+}
+.app {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.doctor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.appDoctor{
+  width: 60%;
+}
+.doctorImg {
+  width: 100%;
+}
+.doctorImg img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.doctorTxt {
+  width: 100%;
+}
+.doctor .doctorTxt h4 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.doctor .doctorTxt p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-top: 0.3rem;
+  line-height: 1rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.textArea{
+  width: 580px;
+  height: 200px;
+  padding-top: 1rem;
 }
