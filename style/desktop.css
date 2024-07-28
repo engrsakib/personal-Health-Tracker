@@ -35,7 +35,7 @@
   align-items: center;
 }
 .navLogo > h2 {
-  color: red;
+  color: rgb(230, 83, 60);
   font-family: Inter;
   font-size: 3rem;
   font-weight: 800;
@@ -145,6 +145,14 @@
   background: rgb(230, 83, 60);
   border-radius: 100%;
   margin-left: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+.circel i{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 12px;
+  left: 13px;
 }
 .headImgTxt {
   margin: 0 auto;
