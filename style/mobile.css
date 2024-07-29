@@ -133,6 +133,9 @@
   .fromSelect .thirdInput input {
     width: 366px;
   }
+  .bmi{
+    height: auto;
+  }
   .bmiFrom {
     width: 90%;
     margin-left: 1rem;
@@ -146,6 +149,9 @@
   }
   .bmiFrom .bmiFromTxt {
     width: 100%;
+  }
+  .bmiBtn{
+    margin-bottom: 1rem;
   }
   /* meet team */
   .meetTeamImg {
@@ -232,4 +238,25 @@
     width: 250px;
     background-size: cover;
   }
+}
+
+@media screen and (max-width: 325px) {
+  .headImgBox12 {
+    top: -2rem;
+    left: 7rem;
+    width: 180px;
+    height: 80px;
+  }
+  .fromSelect .firstInput{
+    flex-direction: column;
+  }
+  .bmiChartContainer{
+    height: auto;
+  }
+  .fromSelect .firstInput input, select{
+    width: 270px;
+  }
+  .fromSelect .thirdInput input{
+    width: 270px;
+  } 
 }
