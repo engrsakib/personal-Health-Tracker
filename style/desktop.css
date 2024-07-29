@@ -490,6 +490,8 @@ select,
   background-color: rgba(0, 0, 0, 0.435);
   background-image: url("../B10A2-versatile-ui/images/trainer1.png");
   background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.7rem;
 }
@@ -499,6 +501,8 @@ select,
   background-color: rgba(0, 0, 0, 0.435);
   background-image: url("../B10A2-versatile-ui/images/trainer2.png");
   background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.7rem;
 }
@@ -508,6 +512,8 @@ select,
   background-color: rgba(0, 0, 0, 0.435);
   background-image: url("../B10A2-versatile-ui/images/trainer3.png");
   background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.7rem;
 }
@@ -517,6 +523,8 @@ select,
   background-color: rgba(0, 0, 0, 0.435);
   background-image: url("../B10A2-versatile-ui/images/trainer4.png");
   background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.7rem;
 }
@@ -526,6 +534,8 @@ select,
   background-color: rgba(0, 0, 0, 0.435);
   background-image: url("../B10A2-versatile-ui/images/trainer5.png");
   background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.7rem;
 }
@@ -533,8 +543,10 @@ select,
   width: 300px;
   height: 230px;
   background-color: rgba(0, 0, 0, 0.435);
-  background-image: url("../B10A2-versatile-ui/images/trainer1.png");
+  background-image: url("../B10A2-versatile-ui/images/trainer6.png");
   background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.7rem;
 }
