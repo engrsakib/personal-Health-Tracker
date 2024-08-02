@@ -403,7 +403,7 @@ select,
 .fromSelect .firstInput select {
   padding-right: 1rem;
 }
-.fromSelect .firstInput select option {
+.fromSelect .firstInput select option, .slecBac {
   color: rgb(218, 218, 218);
   background: rgb(61, 61, 61);
 }
@@ -750,6 +750,9 @@ select,
 }
 .appDoctor{
   width: 60%;
+}
+.frm{
+  width: 100%;
 }
 .doctorImg {
   width: 100%;
