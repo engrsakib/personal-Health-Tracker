@@ -227,6 +227,9 @@
   .textArea, .btn{
     width: 100%;
   }
+  .display_none{
+    display: none;
+  }
 }
 /* *{
   border: 14px solid red;
